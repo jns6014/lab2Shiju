@@ -8,7 +8,6 @@
  * Rev: 1
  */
 package lab2;
-
 public class Main {
 
     /**

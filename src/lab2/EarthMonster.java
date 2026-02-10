@@ -8,9 +8,7 @@
  * Rev: 1
  */
 package lab2;
-
 public class EarthMonster extends Monster {
-
     public EarthMonster(String name, int health, int level) {
         super(name, health, level);
     }
