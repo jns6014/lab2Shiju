@@ -16,11 +16,11 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        Monster m1 = new FireMonster("Blaze", 100, 5);
-        Monster m2 = new IceMonster("Frost", 120, 6);
-        Monster m3 = new EarthMonster("Terra", 150, 7);
-        Monster m4 = new FireMonster("Inferno", 110, 4);
-        Monster m5 = new IceMonster("Glacier", 130, 8);
+        Monster m1 = new FireMonster("Blaze", 100, 5, 900);
+        Monster m2 = new IceMonster("Frost", 120, 6, 8);
+        Monster m3 = new EarthMonster("Terra", 150, 7, 50);
+        Monster m4 = new FireMonster("Inferno", 110, 4, 700);
+        Monster m5 = new IceMonster("Glacier", 130, 8, 10);
 
         m1.setSpecialPower(SpecialPower.FIRE);
         m2.setSpecialPower(SpecialPower.ICE);
